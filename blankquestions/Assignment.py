@@ -4,7 +4,7 @@
 """
 Q1
 CONSTANTS and variables
-In this task, your job is to use the constants A & B and any
+In this task, your job is to use the constants A = 5 & B = 7 and any
 of the following operators (*, **, -, /, //, %) to generate a value
 of 23 for variable c. This is made more difficult by the following rules:
 
@@ -13,10 +13,12 @@ c must be assigned using A, B, c and any operator. So c = A/B would be legal; c 
 2. No other variables or constants may be used other than those declared above.
 3. You may not use the addition (+) operator.
 """
-def Question1():
+def constantsAndVariables():
     A = 5
     B = 7
-    c = A #alter this line and add any others to generate a value of 23 for c before the return statement
+    c = A #alter this line and add any others to generate a value
+            # of 23 for c before the return statement. Make sure
+            # your indentation matches the other variables
 
     return c
 
