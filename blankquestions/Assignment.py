@@ -16,13 +16,9 @@ c must be assigned using A, B, c and any operator. So c = A/B would be legal; c 
 def constantsAndVariables():
     A = 5
     B = 7
-    # c = 7 % 5 = 2
-    c = B % A
-    # c = 2 ** 2 = 4
-    c = c**c
-    # c = 4 * 7 = 28
-    c = c * B
-    # c = 28 - 5 = 23
-    c = c - A
+    c = A #alter this line and add any others to generate a value
+            # of 23 for c before the return statement. Make sure
+            # your indentation matches the other variables
+
     return c
 
