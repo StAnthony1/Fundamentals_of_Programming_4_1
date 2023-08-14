@@ -22,8 +22,6 @@ c must be assigned using A, B, c and any operator. So c = A/B would be legal; c 
 2. No other variables or constants may be used other than those declared above.
 3. You may NOT use the addition (+) operator.
 """
-
-
 def constantsAndVariables() -> int:
     A = 5
     B = 7
@@ -44,6 +42,7 @@ def numTimesQuoteIn23() -> int:
     #write your code here and return the variable which stores the answer to question 2.a
     return 0# you are expected to replace this 0 return value.
 
+
 """
 b)
 the two numbers representing the start and the end indices of the substring "Now I am become Death, 
@@ -54,13 +53,13 @@ try this out.
 """
 def startAndEndIndicesOfSubString() -> (int, int):
     # write your code here
-    return 0, 0 #return the variable storing the int at the start of the quote first
+    return 0, 0 #return the variables storing the int at the start of the quote first
+
 
 """
 c) the string value of characters represented by the following integer sequence:
 74 32 82 111 98 101 114 116 32 79 112 112 101 110 104 101 105 109 101 114 
 """
-
 def integerSeqToString() -> str:
     #write your code here - this may take a number of lines!
     return ""
